@@ -1,0 +1,224 @@
+/* Navbar Section */
+.nav-bar {
+  background-color: #fffdf6;
+}
+.d {
+  border-radius: 20%;
+  background-color: #f94a3d;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.nav-logo,.icon{
+    cursor: pointer;
+}
+.fdelivery {
+  padding-left: 5px;
+  color: #f94a3d;
+}
+.nav-text > a {
+  color: #212244;
+}
+/* Styling for search bar */
+.search-div {
+  padding: 5px 5px;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 12px;
+  background: #ffffff;
+  color: #69697b;
+}
+
+/* Search input field styles */
+.search-div > input {
+  border: none;
+  background-color: transparent;
+}
+.icon {
+  padding-left: 10px;
+}
+
+/* Section-1 */
+.section-1 {
+  background-color: #fffdf6;
+}
+.h1-color,
+.more-than-faster {
+  color: #f94a3d;
+}
+.fill {
+  /* position: relative; */
+  border-radius: 23px;
+  background-color: #fdecec;
+  height: 46px;
+  width: 50%;
+}
+.group-parent-1 {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 400px;
+  height: 300px;
+}
+.group-parent-2 {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+.group-parent {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-right: 10px;
+}
+.frame-icon {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.food-that-is {
+  position: relative;
+  font-size: 15px;
+  line-height: 32px;
+  color: #69697b;
+}
+.group-icon {
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.choose {
+  margin: 0;
+  font-weight: bold;
+}
+.ellipse-div {
+    position: relative;
+    border-radius: 50%;
+    background-color: #fbede4;
+    width: 140px;
+    height: 140px;
+}
+
+.my-card{
+    background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 8px 12px rgba(255, 255, 0, 0.4), -4px 0px 6px rgba(0, 0, 0, 0.2), 4px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* section-3 */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  /* Add this section */
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .category {
+    padding: 8px 20px;
+    cursor: pointer;
+    position: relative; /* Add this */
+  }
+  
+  .category:hover {
+    color: #f39c12; /* Change color on hover */
+    border-bottom: 2px solid #f39c12; /* Add bottom border on hover */
+  }
+
+  .group-parent-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+}
+
+.base {
+    width: 300px;
+    height: 10px;
+    background-color: #e5e5e5;
+    margin: 0 auto;
+}
+
+.burger-patty-recipe-parent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.burger-patty-recipe {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price-1500-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    display: flex;
+    align-items: center;
+    color: #f39c12;
+    font-weight: 600;
+}
+
+.span1 {
+    background-color: #f39c12;
+    margin-right: 10px;
+}
+
+.group-child {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.rectangle-parent {
+    /* background-color: #f39c12; */
+    border: 1.3px solid red;
+    border-radius: 5px;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.rectangle-parent:hover{
+    background-color: red; 
+}
+.add-to-cart {
+    color: red;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+.add-to-cart:hover{
+    color: white;
+}
+
+.my-card-1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); */
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    box-shadow: 0px 8px 12px rgba(255, 255, 0, 0.4), -4px 0px 6px rgba(0, 0, 0, 0.2), 4px 0px 6px rgba(0, 0, 0, 0.2);
+  }
