@@ -1,4 +1,17 @@
 /* Navbar Section */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #fffdf6;
+}
+
+/* Container for main content */
+.content-container {
+  overflow-y: auto; /* Enable vertical scrolling when content exceeds viewport height */
+  height: calc(100vh - 60px); /* Subtract the navbar's height from viewport height */
+}
 .nav-bar {
   background-color: #fffdf6;
 }
@@ -367,4 +380,10 @@ footer {
   color: #f94a3d;
   font-size: large;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  nav,footer {
+    flex-direction: column !important;
+  }
 }
